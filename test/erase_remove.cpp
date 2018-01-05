@@ -27,7 +27,7 @@ TEST_CASE("Removing elements from vector")
         std::cout << i << " ";
     }
     std::cout << '\n';
-    const auto original_size {vect.size()};
+    const size_t original_size {vect.size()};
     REQUIRE(std::find(std::begin(vect), std::end(vect), 2) != std::end(vect));
     REQUIRE(std::find(std::begin(vect), std::end(vect), 4) != std::end(vect));
     REQUIRE(std::find(std::begin(vect), std::end(vect), 6) != std::end(vect));

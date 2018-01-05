@@ -7,6 +7,7 @@ namespace ytl
 {
     ///Wrap the erase-remove idiom into a single call
     /// \param container A container
+    /// \param element some element of the type inside the container
     template <class T, typename E>
         void erase_remove(T& container, const E& element)
         {
@@ -19,6 +20,7 @@ namespace ytl
         }
 
     ///Wrap the rease-remove idiom with remove_if into a single call
+    /// \param container A container
     /// \param predicate a predicate to pass to remove_if (lambda, function poiner...)
     template <class T, typename P>
         void erase_remove_if(T& container, P predicate)

@@ -21,5 +21,5 @@ everything is in the `ytl` namespace. When something will be mentioned that is p
 ### ytl_algorithm.hpp
 
  - `erase_remove(container, element)` : use the erase-remove idiom on the whole container to effectively *delete* the element from the container.
- - `erase_remove_if(container, predicate)` : same as `erase_remove`, but you can specify a predicate in the same way yuo can do to `std::remove`.
+ - `erase_remove_if(container, predicate)` : same as `erase_remove`, but you can specify a predicate in the same way you can do to `std::remove_if`.
 

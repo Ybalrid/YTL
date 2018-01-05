@@ -13,5 +13,5 @@ before_script:
 
 script:
     - cmake --build . -- -j 2
-
+    - ctest -j 2
 

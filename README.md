@@ -1,5 +1,7 @@
 # YTL
 
+[Documentation here!](./Doxygen/html/)
+
 [![Build Status](https://travis-ci.org/Ybalrid/YTL.svg?branch=master)](https://travis-ci.org/Ybalrid/YTL)
 
 Ybalrid Template Library : A playground for some C++ templates that may (or may not) be usefull for anything.

@@ -1,4 +1,7 @@
 # YTL
+
+[![Build Status](https://travis-ci.org/Ybalrid/YTL.svg?branch=master)](https://travis-ci.org/Ybalrid/YTL)
+
 Ybalrid Template Library : A playground for some C++ templates that may (or may not) be usefull for anything.
 
 Let's just say that this code comes with no warrenty what so ever, okay? :smile:

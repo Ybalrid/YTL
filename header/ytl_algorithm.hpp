@@ -21,11 +21,11 @@ namespace ytl
     ///Wrap the rease-remove idiom with remove_if into a single call
     /// \param predicate a predicate to pass to remove_if (lambda, function poiner...)
     template <class T, typename P>
-        void erase_remove(T& container, P predicate)
+        void erase_remove_if(T& container, P predicate)
         {
 
             container.erase(
-                    std::remove(
+                    std::remove_if(
                         std::begin(container),
                         std::end(container),
                         predicate),

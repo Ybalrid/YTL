@@ -1,6 +1,6 @@
 # YTL
 
-[Documentation here!](./Doxygen/html/)
+[Documentation here!](https://ybalrid.github.io/YTL/Doxygen/html/)
 
 [![Build Status](https://travis-ci.org/Ybalrid/YTL.svg?branch=master)](https://travis-ci.org/Ybalrid/YTL)
 

@@ -3,6 +3,7 @@
 [Documentation here!](https://ybalrid.github.io/YTL/Doxygen/html/)
 
 [![Build Status](https://travis-ci.org/Ybalrid/YTL.svg?branch=master)](https://travis-ci.org/Ybalrid/YTL)
+[![Build status](https://ci.appveyor.com/api/projects/status/9sidxf2e01m8jq4u?svg=true)](https://ci.appveyor.com/project/Ybalrid/ytl)
 
 Ybalrid Template Library : A playground for some C++ templates that may (or may not) be usefull for anything.
 

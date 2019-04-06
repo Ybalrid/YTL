@@ -1,15 +1,15 @@
-cmake_minimum_required(VERSION 3.6.3)
+cmake_minimum_required(VERSION 3.14)
 
 project(YTL)
 
-set(CMAKE_CXX_STANDARD 14)
+set(CMAKE_CXX_STANDARD 17)
 
 include_directories(
     ./header
     ./test
     )
 
-file(GLOB TestCode ./test/*.cpp)
+file(GLOB TestCode CONFIGURE_DEPENDS ./test/*.cpp)
 
 add_executable(YTL_test ${TestCode})
 

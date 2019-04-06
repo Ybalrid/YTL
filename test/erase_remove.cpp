@@ -1,18 +1,10 @@
 #include "catch/catch.hpp"
+#include <iostream>
+#include <vector>
 
 #include <ytl_algorithm.hpp>
 
-#include <vector>
-#include <iostream>
 
-template <class T> void print_container(const T& container)
-{
-    for(auto i : container)
-    {
-        std::cout << i << " ";
-    }
-    std::cout << '\n';
-}
 
 TEST_CASE("Removing elements from vector")
 {
@@ -34,17 +26,17 @@ TEST_CASE("Removing elements from vector")
 
     ytl::erase_remove(vect, 2);
     std::cout << "erase_remove(vect, 2): ";
-    print_container(vect);
+    ytl::print_container(vect);
     REQUIRE(vect.size() == original_size -1);
 
     ytl::erase_remove(vect, 4);
     std::cout << "erase_remove(vect, 4): ";
-    print_container(vect);
+    ytl::print_container(vect);
     REQUIRE(vect.size() == original_size -2);
 
     ytl::erase_remove(vect, 6);
     std::cout << "erase_remove(vect, 6): ";
-    print_container(vect);
+    ytl::print_container(vect);
     REQUIRE(vect.size() == original_size -3);
 
     REQUIRE(std::find(std::begin(vect), std::end(vect), 2) == std::end(vect));
@@ -60,7 +52,7 @@ TEST_CASE("Remofibn elements from vector with predicate")
             [a = 9] () mutable { return a--; });
 
     std::cout << "starting values: ";
-    print_container(vect);
+    ytl::print_container(vect);
 
     REQUIRE(std::find(std::begin(vect), std::end(vect), 0) != std::end(vect));
     REQUIRE(std::find(std::begin(vect), std::end(vect), 2) != std::end(vect));
@@ -70,7 +62,7 @@ TEST_CASE("Remofibn elements from vector with predicate")
 
     ytl::erase_remove_if(vect, [](const int& i){return !bool(i % 2);});
     std::cout << "after calling erase_remove_if to remove even numbers: ";
-    print_container(vect);
+    ytl::print_container(vect);
 
     REQUIRE(std::find(std::begin(vect), std::end(vect), 0) == std::end(vect));
     REQUIRE(std::find(std::begin(vect), std::end(vect), 2) == std::end(vect));

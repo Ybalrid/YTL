@@ -49,6 +49,7 @@ var searchData=
   ['_7enum_5fput',['~num_put',['http://en.cppreference.com/w/cpp/locale/num_put/~num_put.html',1,'std::num_put']]],
   ['_7enumpunct',['~numpunct',['http://en.cppreference.com/w/cpp/locale/numpunct/~numpunct.html',1,'std::numpunct']]],
   ['_7enumpunct_5fbyname',['~numpunct_byname',['http://en.cppreference.com/w/cpp/locale/numpunct_byname.html',1,'std::numpunct_byname']]],
+  ['_7eobserver_5fptr',['~observer_ptr',['../classytl_1_1observer__ptr.html#a953c873ad24fc140547886b62fa8869d',1,'ytl::observer_ptr']]],
   ['_7eoptional',['~optional',['http://en.cppreference.com/w/cpp/experimental/optional/~optional.html',1,'std::experimental::optional']]],
   ['_7eostream',['~ostream',['http://en.cppreference.com/w/cpp/io/basic_ostream/~basic_ostream.html',1,'std::ostream']]],
   ['_7eostrstream',['~ostrstream',['http://en.cppreference.com/w/cpp/io/ostrstream/~ostrstream.html',1,'std::ostrstream']]],

@@ -1,5 +1,6 @@
 var searchData=
 [
+  ['observer_5fptr',['observer_ptr',['../classytl_1_1observer__ptr.html',1,'ytl']]],
   ['ofstream',['ofstream',['http://en.cppreference.com/w/cpp/io/basic_ofstream.html',1,'std']]],
   ['once_5fflag',['once_flag',['http://en.cppreference.com/w/cpp/thread/once_flag.html',1,'std']]],
   ['optional',['optional',['http://en.cppreference.com/w/cpp/experimental/optional.html',1,'std::experimental']]],

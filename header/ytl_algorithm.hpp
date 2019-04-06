@@ -33,6 +33,20 @@ namespace ytl
                         predicate),
                     std::end(container));
         }
+
+
+#include <iostream>
+    ///Print the full content of a container as spaces separated values
+    template <class T> 
+	    void print_container(const T& container)
+    {
+	    for(const auto& i : container)
+	    {
+		    std::cout << i << " ";
+	    }
+	    std::cout << "\b\n";
+    }
+
 }
 
 #endif

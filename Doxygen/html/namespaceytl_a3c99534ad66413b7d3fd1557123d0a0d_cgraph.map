@@ -1,5 +1,6 @@
 <map id="ytl::erase_remove_if" name="ytl::erase_remove_if">
-<area shape="rect" id="node2" href="/home/ybalrid/dev/github/YTL/Doxygen/cppreference-doxygen-web.tag.xml$cpp/algorithm/remove.html#" title="std::remove_if" alt="" coords="193,5,299,32"/>
-<area shape="rect" id="node3" href="/home/ybalrid/dev/github/YTL/Doxygen/cppreference-doxygen-web.tag.xml$cpp/iterator/begin.html#" title="std::begin" alt="" coords="207,56,285,83"/>
-<area shape="rect" id="node4" href="/home/ybalrid/dev/github/YTL/Doxygen/cppreference-doxygen-web.tag.xml$cpp/iterator/end.html#" title="std::end" alt="" coords="211,107,281,133"/>
+<area shape="rect" id="node1" title=" " alt="" coords="5,56,145,83"/>
+<area shape="rect" id="node2" href="/home/ybalrid/Programming/YTL/Doxygen/cppreference-doxygen-web.tag.xml$cpp/algorithm/remove.html#" title=" " alt="" coords="193,5,299,32"/>
+<area shape="rect" id="node3" href="/home/ybalrid/Programming/YTL/Doxygen/cppreference-doxygen-web.tag.xml$cpp/iterator/begin.html#" title=" " alt="" coords="207,56,285,83"/>
+<area shape="rect" id="node4" href="/home/ybalrid/Programming/YTL/Doxygen/cppreference-doxygen-web.tag.xml$cpp/iterator/end.html#" title=" " alt="" coords="211,107,281,133"/>
 </map>

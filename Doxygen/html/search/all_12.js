@@ -34,7 +34,7 @@ var searchData=
   ['recursive_5fmutex',['recursive_mutex',['http://en.cppreference.com/w/cpp/thread/recursive_mutex.html',1,'std::recursive_mutex'],['http://en.cppreference.com/w/cpp/thread/recursive_mutex/recursive_mutex.html',1,'std::recursive_mutex::recursive_mutex()']]],
   ['recursive_5ftimed_5fmutex',['recursive_timed_mutex',['http://en.cppreference.com/w/cpp/thread/recursive_timed_mutex.html',1,'std::recursive_timed_mutex'],['http://en.cppreference.com/w/cpp/thread/recursive_timed_mutex/recursive_timed_mutex.html',1,'std::recursive_timed_mutex::recursive_timed_mutex()']]],
   ['ref',['ref',['http://en.cppreference.com/w/cpp/utility/functional/ref.html',1,'std']]],
-  ['reference',['reference',['http://en.cppreference.com/w/cpp/utility/bitset/reference.html',1,'std::bitset']]],
+  ['reference',['reference',['http://en.cppreference.com/w/cpp/utility/bitset/reference.html',1,'std::bitset::reference'],['../classytl_1_1observer__ptr.html#abab689495662fecaaaa6556e4ca5fca3',1,'ytl::observer_ptr::reference()']]],
   ['reference_5fwrapper',['reference_wrapper',['http://en.cppreference.com/w/cpp/utility/functional/reference_wrapper.html',1,'std::reference_wrapper'],['http://en.cppreference.com/w/cpp/utility/functional/reference_wrapper/reference_wrapper.html',1,'std::reference_wrapper::reference_wrapper()']]],
   ['regex',['regex',['http://en.cppreference.com/w/cpp/regex/basic_regex.html',1,'std::regex'],['http://en.cppreference.com/w/cpp/regex/basic_regex/basic_regex.html',1,'std::regex::regex()']]],
   ['regex_5ferror',['regex_error',['http://en.cppreference.com/w/cpp/regex/regex_error.html',1,'std::regex_error'],['http://en.cppreference.com/w/cpp/regex/regex_error/regex_error.html',1,'std::regex_error::regex_error()']]],

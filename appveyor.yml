@@ -1,0 +1,13 @@
+version: 1.0.{build}
+image: Visual Studio 2017
+init:
+- sh: cmake . -G"Visual Studio 15 2017"
+build_script:
+- cmd: >-
+    echo "Testing..."
+
+    cmake . -G"Visual Studio 15 2017"
+
+    cmake --build .
+
+    ctest -C "Debug" .

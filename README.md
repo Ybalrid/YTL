@@ -24,4 +24,9 @@ everything is in the `ytl` namespace. When something will be mentioned that is p
 
  - `erase_remove(container, element)` : use the erase-remove idiom on the whole container to effectively *delete* the element from the container.
  - `erase_remove_if(container, predicate)` : same as `erase_remove`, but you can specify a predicate in the same way you can do to `std::remove_if`.
+ - `print_container(container)` : print a spaces separated list of the content of a container that can be iterated through
+
+### ytl_memory.hpp
+
+ - `observer_ptr<T>` : A dumb smart pointer. A simple non-owning pointer wrapper that is constructible from a smart pointer. Merly a copy of a memory address, without any management of ownership whatsoever.
 

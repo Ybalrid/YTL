@@ -1,14 +1,28 @@
-dist: trusty
-sudo: false
+dist: xenial
+sudo: true
 language: cpp
+
+addons:
+  apt:
+    sources:
+      - ubuntu-toolchain-r-test
+    packages:
+      - gcc-8
+      - g++-8
+      - cmake
 
 compiler:
     - gcc
-    - clang
+ #    - clang
 
 before_script:
     - mkdir build
     - cd build
+    - sudo ln -s /usr/bin/gcc-8 /usr/local/bin/gcc
+    - sudo ln -s /usr/bin/g++-8 /usr/local/bin/g++
+    - export CC=/usr/bin/gcc-8
+    - export CXX=/usr/bin/g++-8
+    - gcc -v && g++ -v && cmake --version
     - cmake ..
 
 script:

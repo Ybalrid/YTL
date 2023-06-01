@@ -1,7 +1,7 @@
 version: 1.0.{build}
-image: Visual Studio 2017
+image: Visual Studio 2022
 init:
-- sh: cmake . -G"Visual Studio 15 2017"
+- sh: cmake . -G"Visual Studio 17 2022"
 build_script:
 - cmd: >-
     echo "Testing..."

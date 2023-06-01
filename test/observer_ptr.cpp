@@ -1,8 +1,8 @@
-#include "catch/catch.hpp"
 #include <ytl_memory.hpp>
 
 #include <iostream>
 #include <memory>
+#include <catch/catch_amalgamated.hpp>
 
 TEST_CASE("observer_ptr is null by default")
 {

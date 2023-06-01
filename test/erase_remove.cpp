@@ -1,9 +1,8 @@
-#include "catch/catch.hpp"
 #include <iostream>
 #include <vector>
 
 #include <ytl_algorithm.hpp>
-
+#include <catch/catch_amalgamated.hpp>
 
 
 TEST_CASE("Removing elements from vector")

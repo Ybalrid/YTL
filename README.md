@@ -27,7 +27,16 @@ everything is in the `ytl` namespace. When something will be mentioned that is p
  - `erase_remove_if(container, predicate)` : same as `erase_remove`, but you can specify a predicate in the same way you can do to `std::remove_if`.
  - `print_container(container)` : print a spaces separated list of the content of a container that can be iterated through
 
+### ytl_fmt.hpp
+
+- `fmt_sink` : class that represent an object that behave like `std::format`, but output text to a provided function pointer to anything with a `void f(const char *)` signature.
+
 ### ytl_memory.hpp
 
  - `observer_ptr<T>` : A dumb smart pointer. A simple non-owning pointer wrapper that is constructible from a smart pointer. Merly a copy of a memory address, without any management of ownership whatsoever.
+ - `zero_memory` : A function like Win32 ZeroMemory, that take a pointer to any type, and sets all of its bytes to `0`
 
+ ### ytl_utils.hpp
+ - `non_copyable` : An empty struct that cannot be copied. You can inherit from it.
+ - `non_movable` : An empty struct that cannot be moved. You can inherit from it.
+ - `non_copyable_and_movable` : An empty struct that inherit from all of the ablve. You can inherit from it.

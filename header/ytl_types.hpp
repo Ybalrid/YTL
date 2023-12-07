@@ -20,13 +20,15 @@ namespace ytl
 	///Type that takes an error string as constructor. Note that it is just a pointer.
 	struct whatever : base_error
 	{
-		const char* const message;
 		whatever(const char* message) : message(message) {}
 
 		const char* get() const final
 		{
 			return message;
 		}
+
+	private:
+		const char* const message;
 	};
 
 	///Rust style `Result` class
